@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/banglento/tiny-chess-01-v2b/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/banglento/tiny-chess-01-v2b/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A chess engine in 4,055 bytes of Python (limit 4,096), packed as an
+A chess engine in 4,068 bytes of Python (limit 4,096), packed as an
 lzma payload in `main.py` in the same format as the previous entry
 ("chess3"). Deterministic: fixed 72,000-node budget per move, no clock
 is ever read. Same protocol and budget as chess3 — only the search and
