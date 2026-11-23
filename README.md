@@ -34,7 +34,8 @@ Measured strength (local, 2026-11-23):
   book openings, colours swapped: W6 D7 L3, score 0.594, about +66 Elo
   over 16 games.
 
-`main.py` decompresses byte-for-byte to `main_src.py`. Reproduce the
-pack with `python3 pack.py` (it verifies the written file by reading
-it back independently). The readable development source is
-`main_src.py`.
+`main.py` decompresses byte-for-byte to the readable development
+source. The source itself is not in this repository — the competition
+counts every file in the tree against the size caps — it travels with
+the entry's transcript bundle as the declared pack source of
+`main.py`, written and benchmarked in the recorded build sessions.
